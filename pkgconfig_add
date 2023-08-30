@@ -1,0 +1,27 @@
+# This file contains additional pkgconfig build requirements that did
+# not get picked up automatically. One name per line, no whitespace.
+libmfx
+libva
+openssl
+vorbis
+vpx
+sdl2
+libv4l2
+dav1d
+aom
+libdrm
+libopenjp2
+libopenmpt
+opus
+libpulse
+librsvg-2.0
+libssh
+speex
+srt
+vidstab
+libwebp
+x264
+x265
+zimg
+libxml-2.0
+jack

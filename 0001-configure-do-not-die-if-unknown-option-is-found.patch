@@ -1,0 +1,28 @@
+From a0f6fec3bd4d087c74e9797eeadad66d77054790 Mon Sep 17 00:00:00 2001
+From: Daniel Charles <daniel.charles@intel.com>
+Date: Wed, 20 Mar 2019 10:43:22 -0700
+Subject: [PATCH] configure: do not die if unknown option is found
+
+user may want to pass unknown options to configure
+
+Signed-off-by: Daniel Charles <daniel.charles@intel.com>
+---
+ configure | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/configure b/configure
+index 7310b962f2..cb183fb986 100755
+--- a/configure
++++ b/configure
+@@ -3967,7 +3967,7 @@ enable $ARCH_EXT_LIST
+ die_unknown(){
+     echo "Unknown option \"$1\"."
+     echo "See $0 --help for available options."
+-    exit 1
++#    exit 1
+ }
+ 
+ print_in_columns() {
+-- 
+2.20.1
+
