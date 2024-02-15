@@ -7,7 +7,7 @@
 #
 Name     : compat-ffmpeg-4.4
 Version  : 4.4.4
-Release  : 2
+Release  : 3
 URL      : https://ffmpeg.org/releases/ffmpeg-4.4.4.tar.xz
 Source0  : https://ffmpeg.org/releases/ffmpeg-4.4.4.tar.xz
 Source1  : https://ffmpeg.org/releases/ffmpeg-4.4.4.tar.xz.asc
